@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+.env
+*.env
+
+# Model checkpoints (large files - use Git LFS if needed)
+models/
+*.pth
+*.pt
+*.onnx
+*.bin
+*.h5
+*.hdf5
+*.pkl
+*.weights
+
+# Kaggle credentials (SECURITY: never commit)
+kaggle.json
+.kaggle/
+
+# Datasets (large - download separately)
+*.csv
+*.zip
+*.tar.gz
+*.parquet
+
+# Test models / backups
+test_models/
+
+# Submission files
+auto_submissions/
+submissions/
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
